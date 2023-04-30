@@ -1,9 +1,9 @@
 # Prebuilt packages
 ifneq ($(LEGION_GAPPS), true)
 PRODUCT_PACKAGES += \
-    ViaBrowser
+    ViaBrowser \
+    SimpleGallery
 endif
 
 PRODUCT_PACKAGES += \
-    Musify \
-    SimpleGallery
+    Musify
