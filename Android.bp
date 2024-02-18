@@ -9,26 +9,3 @@ android_app_import {
 	product_specific: true,
 	overrides: ["Browser2"],
 }
-
-android_app_import {
-	name: "SimpleGallery",
-	apk: "SimpleGallery/SimpleGallery.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["Gallery2"],
-}
-
-android_app_import {
-        name: "Musify",
-        apk: "Musify/Musify.apk",
-        presigned: true,
-        dex_preopt: {
-                enabled: false,
-        },
-        privileged: true,
-        product_specific: true,
-}
