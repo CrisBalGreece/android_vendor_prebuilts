@@ -5,4 +5,5 @@ PRODUCT_PACKAGES += \
 endif
 
 PRODUCT_PACKAGES += \
-    BlackHole
+    Eleven \
+    LPaper
